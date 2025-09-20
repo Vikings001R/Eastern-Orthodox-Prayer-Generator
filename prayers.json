@@ -1,0 +1,16 @@
+{
+  "prayers": [
+    {
+      "id": 1,
+      "text": "O Heavenly King, Comforter, Spirit of Truth, be present with us.",
+      "source": "ROC Morning Prayer",
+      "theme": "invocation"
+    },
+    {
+      "id": 2,
+      "text": "Lord, have mercy on us, for we have hoped in Thee.",
+      "source": "Serbian Orthodox Litany",
+      "theme": "repentance"
+    }
+  ]
+}
