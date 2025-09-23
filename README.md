@@ -15,3 +15,7 @@ A CLI tool to generate daily prayers from traditional ROC, ROCOR, and Serbian Or
 - Generate a random prayer:
   ```bash
   python main.py
+
+## Logging
+
+Actions and errors are logged to `prayer_generator.log` for debugging and tracking.
