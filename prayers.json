@@ -11,6 +11,18 @@
       "text": "Lord, have mercy on us, for we have hoped in Thee.",
       "source": "Serbian Orthodox Litany",
       "theme": "repentance"
+    },
+    {
+      "id": 3,
+      "text": "Grant us, O Lord, a peaceful evening and a restful night.",
+      "source": "ROCOR Evening Prayer",
+      "theme": "peace"
+    },
+    {
+      "id": 4,
+      "text": "O Lord our God, forgive us our sins and lead us to everlasting life.",
+      "source": "ROC Penitential Prayer",
+      "theme": "repentance"
     }
   ]
 }
