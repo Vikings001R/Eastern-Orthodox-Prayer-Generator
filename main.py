@@ -21,12 +21,13 @@ def load_prayers(file_path):
         logging.error(f"Invalid JSON format in '{file_path}'")
         raise ValueError(f"Invalid JSON format in '{file_path}'")
 
-def generate_daily_prayer(prayers, theme=None):
-    if theme:
-        filtered_prayers = [p for p in prayers if p['theme'].lower() == theme.lower()]
+def generate_daily_prayer(prayers, themes=None):
+    if themes:
+        themes = [t.lower() for t in themes]
+        filtered_prayers = [p for p in prayers if p['theme'].lower() in themes]
         if not filtered_prayers:
-            logging.warning(f"No prayers found for theme: {theme}")
-            raise ValueError(f"No prayers found for theme: {theme}")
+            logging.warning(f"No prayers found for themes: {', '.join(themes)}")
+            raise ValueError(f"No prayers found for themes: {', '.join(themes)}")
         prayer = random.choice(filtered_prayers)
     else:
         prayer = random.choice(prayers)
@@ -46,13 +47,14 @@ def render_html(prayer, output_file):
 
 def main():
     parser = argparse.ArgumentParser(description="Generate daily Orthodox prayers.")
-    parser.add_argument('--theme', type=str, help="Filter prayers by theme (e.g., invocation, repentance)")
+    parser.add_argument('--theme', type=str, help="Filter prayers by theme(s), comma-separated (e.g., invocation,peace)")
     parser.add_argument('--export', type=str, choices=['html'], help="Export format (e.g., html)")
     args = parser.parse_args()
 
     try:
         prayers = load_prayers('prayers.json')
-        prayer = generate_daily_prayer(prayers, args.theme)
+        themes = args.theme.split(',') if args.theme else None
+        prayer = generate_daily_prayer(prayers, themes)
         if args.export == 'html':
             render_html(prayer, 'prayer.html')
             print(f"Generated HTML file: prayer.html")
