@@ -8,6 +8,19 @@ import logging
 logging.basicConfig(filename='prayer_generator.log', level=logging.INFO, 
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
+def load_config(file_path):
+    if not os.path.exists(file_path):
+        logging.warning(f"Config file '{file_path}' not found, using defaults")
+        return {"default_themes": [], "default_export": "text"}
+    try:
+        with open(file_path, 'r') as f:
+            config = json.load(f)
+        logging.info("Loaded configuration")
+        return config
+    except json.JSONDecodeError:
+        logging.error(f"Invalid JSON format in '{file_path}'")
+        raise ValueError(f"Invalid JSON format in '{file_path}'")
+
 def load_prayers(file_path):
     if not os.path.exists(file_path):
         logging.error(f"Prayer file '{file_path}' not found")
@@ -48,14 +61,16 @@ def render_html(prayer, output_file):
 def main():
     parser = argparse.ArgumentParser(description="Generate daily Orthodox prayers.")
     parser.add_argument('--theme', type=str, help="Filter prayers by theme(s), comma-separated (e.g., invocation,peace)")
-    parser.add_argument('--export', type=str, choices=['html'], help="Export format (e.g., html)")
+    parser.add_argument('--export', type=str, choices=['html', 'text'], help="Export format (e.g., html, text)")
     args = parser.parse_args()
 
     try:
+        config = load_config('config.json')
         prayers = load_prayers('prayers.json')
-        themes = args.theme.split(',') if args.theme else None
+        themes = args.theme.split(',') if args.theme else config['default_themes']
+        export = args.export or config['default_export']
         prayer = generate_daily_prayer(prayers, themes)
-        if args.export == 'html':
+        if export == 'html':
             render_html(prayer, 'prayer.html')
             print(f"Generated HTML file: prayer.html")
         else:
