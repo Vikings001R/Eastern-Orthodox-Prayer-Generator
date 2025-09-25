@@ -19,3 +19,19 @@ A CLI tool to generate daily prayers from traditional ROC, ROCOR, and Serbian Or
 ## Logging
 
 Actions and errors are logged to `prayer_generator.log` for debugging and tracking.
+
+## Web Interface
+
+Run a local web server to access prayers via a browser:
+```bash
+python server.py
+```
+Visit  for a random prayer or  to filter by theme(s).
+
+## Web Interface
+
+Run a local web server to access prayers via a browser:
+```bash
+python server.py
+```
+Visit `http://localhost:5000` for a random prayer or `http://localhost:5000?theme=patron` to filter by theme(s).
