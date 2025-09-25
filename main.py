@@ -53,14 +53,14 @@ def render_html(prayer, output_file):
         raise FileNotFoundError("Templates directory not found")
     env = Environment(loader=FileSystemLoader('templates'))
     template = env.get_template('prayer_template.html')
-    html_content = template.render(prayer=prayer['text'])
+    html_content = template.render(prayer=prayer['text'], title=prayer.get('title', 'Daily Prayer'))
     with open(output_file, 'w') as f:
         f.write(html_content)
     logging.info(f"Generated HTML file: {output_file}")
 
 def main():
     parser = argparse.ArgumentParser(description="Generate daily Orthodox prayers.")
-    parser.add_argument('--theme', type=str, help="Filter prayers by theme(s), comma-separated (e.g., invocation,peace)")
+    parser.add_argument('--theme', type=str, help="Filter prayers by theme(s), comma-separated (e.g., patron,church)")
     parser.add_argument('--export', type=str, choices=['html', 'text'], help="Export format (e.g., html, text)")
     args = parser.parse_args()
 
@@ -74,7 +74,7 @@ def main():
             render_html(prayer, 'prayer.html')
             print(f"Generated HTML file: prayer.html")
         else:
-            print("Daily Prayer:")
+            print(f"Daily Prayer: {prayer.get('title', 'Untitled')}")
             print(prayer['text'])
     except (FileNotFoundError, ValueError, json.JSONDecodeError) as e:
         print(f"Error: {e}")
