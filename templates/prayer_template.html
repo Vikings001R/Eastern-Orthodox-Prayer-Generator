@@ -2,36 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>Daily Eastern Orthodox Prayers from the Saints</title>
     <style>
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
-            background-color: #f5f5dc;
+            background-color: #f5f5dc; /* Ivory parchment */
             margin: 0;
+            padding: 0;
+            color: #2c1810; /* Deep brown */
+        }
+        .header {
+            background-color: #001f3f; /* Deep blue */
+            color: #d4af37; /* Gold */
             padding: 20px;
             text-align: center;
-            color: #2c1810;
+            position: relative;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .eagle-icon {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            width: 80px;
+            height: auto;
+        }
+        .sidebar {
+            float: left;
+            width: 250px;
+            background-color: #fffaf0; /* Soft ivory */
+            height: 100vh;
+            overflow-y: auto;
+            border-right: 2px solid #d4af37; /* Gold border */
+            padding: 20px;
+        }
+        .sidebar h3 {
+            color: #8b4513; /* Saddle brown */
+            text-align: center;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin: 10px 0;
+            text-align: left;
+        }
+        .sidebar a {
+            color: #001f3f; /* Deep blue */
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #d4af37; /* Gold hover */
+            color: #001f3f;
+        }
+        .icon {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 40px;
+            text-align: center;
+            min-height: 100vh;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 40px;
             background-color: #fffaf0;
             border: 2px solid #d4af37;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #b8860b;
-            font-size: 2em;
-            margin-bottom: 20px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            padding: 40px;
         }
         .prayer-title {
             font-size: 1.5em;
             font-weight: bold;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             color: #8b4513;
+            font-style: italic;
+        }
+        .saint-attribution {
+            font-size: 1em;
+            color: #001f3f;
+            margin-bottom: 15px;
             font-style: italic;
         }
         .prayer {
@@ -43,26 +103,63 @@
             border-left: 4px solid #d4af37;
             text-align: justify;
         }
-        .cross-motif {
-            font-size: 3em;
+        .orthodox-cross {
+            font-size: 4em;
             color: #d4af37;
-            margin: 20px 0;
+            margin: 40px auto;
+            display: block;
+            text-align: center;
         }
         footer {
             margin-top: 30px;
             font-size: 0.9em;
-            color: #696969;
+            color: #001f3f;
             font-style: italic;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                float: none;
+            }
+            .main-content {
+                margin-left: 0;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="cross-motif">✝</div>
-        <h1>Daily Orthodox Prayer</h1>
-        <div class="prayer-title">{{ title }}</div>
-        <div class="prayer">{{ prayer }}</div>
-        <footer>Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy on us. Amen.</footer>
+    <div class="header">
+        <img src="{{ url_for('static', filename='doubleheadedorthoeagle.png') }}" alt="Byzantine Double-Headed Eagle" class="eagle-icon">
+        <h1>Daily Eastern Orthodox Prayers from the Saints</h1>
     </div>
+    <div class="sidebar">
+        <h3>Prayer Categories</h3>
+        <ul>
+            {% for theme in themes %}
+            <li>
+                <a href="/category/{{ theme }}">
+                    <span class="icon">
+                        {{ '📿' if theme == 'fasting' else '💍' if theme == 'marriage' else '🙏' if theme == 'thanksgiving' else '👶' if theme == 'having_children' else '😣' if theme == 'anger' else '💔' if theme == 'lust' else '👑' if theme == 'pride' else '😒' if theme == 'jealousy' else '🙌' if theme == 'mercy' else '🆘' if theme == 'help' else '🛤️' if theme == 'gods_will' else '🌱' if theme == 'growing_closer' else '👁️' if theme == 'revealing_more' else '🌍' if theme == 'unbelievers' else '👨‍👩‍👧‍👦' if theme == 'family' else '🆕' if theme == 'catechumens' else '🏛️' if theme == 'monasticism' else '📖' if theme == 'patron' else '🛡️' if theme == 'guardian' else '⛪' if theme == 'church' else '🙏' }}
+                    </span>
+                    {{ theme.replace('_', ' ').title() }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="main-content">
+        <div class="container">
+            <div class="prayer-title">{{ title }}</div>
+            <div class="saint-attribution">— {{ saint }}</div>
+            <div class="prayer">{{ prayer }}</div>
+            <div class="orthodox-cross">☦</div>
+        </div>
+    </div>
+    <footer>
+        Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy on us. Amen.<br><br>
+        <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms and Conditions</a> | Copyright © 2025 Eastern Orthodox Prayer Generator. All rights reserved.<br><br><br><br><br>
+    </footer>
 </body>
 </html>
