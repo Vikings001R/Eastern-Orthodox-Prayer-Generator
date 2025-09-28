@@ -244,6 +244,111 @@
       "theme": "jealousy",
       "saint": "St. Irenaeus",
       "text": "O Generous God, free me from jealousy’s grasp. Let me find contentment in Your will, rejoicing in the blessings of all."
+    },
+    {
+      "id": 36,
+      "title": "Prayer for Fasting Discipline",
+      "theme": "fasting",
+      "saint": "St. John Chrysostom",
+      "text": "Let the mouth fast from harsh words. Let the eyes fast from gazing at vanities. Let the heart fast from evil thoughts. This is the fast that pleases God."
+    },
+    {
+      "id": 37,
+      "title": "Prayer During the Great Fast",
+      "theme": "fasting",
+      "saint": "St. Basil the Great",
+      "text": "O God, You who have commanded us to fast for the purification of our souls, grant us the grace to abstain not only from food but from sin, that we may draw nearer to Your divine presence."
+    },
+    {
+      "id": 38,
+      "title": "Prayer for Godly Marriage",
+      "theme": "marriage",
+      "saint": "St. John Chrysostom",
+      "text": "O Lord, who sanctified marriage in Cana of Galilee, bless this union with Your grace. Let husband and wife live in harmony, bearing one another's burdens, and growing in love as they grow in faith."
+    },
+    {
+      "id": 39,
+      "title": "Prayer for Marital Harmony",
+      "theme": "marriage",
+      "saint": "St. Gregory of Nyssa",
+      "text": "Almighty God, who created man and woman in Your image, grant to this couple the wisdom to nurture their bond with patience and forgiveness, that their love may reflect Your eternal unity."
+    },
+    {
+      "id": 40,
+      "title": "Prayer of Gratitude for Blessings",
+      "theme": "thanksgiving",
+      "saint": "St. Seraphim of Sarov",
+      "text": "O Lord, my joy and my gladness, I thank You for the abundance of Your mercies. Every good gift comes from You; fill my heart with gratitude, that I may praise You with a pure and thankful spirit."
+    },
+    {
+      "id": 41,
+      "title": "Thanksgiving After Trials",
+      "theme": "thanksgiving",
+      "saint": "St. John of Damascus",
+      "text": "Glory to You, O God, for delivering me from affliction. In Your compassion, You have turned my sorrow into joy. I offer thanks from the depths of my soul."
+    },
+    {
+      "id": 42,
+      "title": "Prayer for the Gift of Children",
+      "theme": "having_children",
+      "saint": "St. Justin Martyr",
+      "text": "O Creator of all life, who formed man from the dust and breathed into him Your spirit, bless this family with the joy of children, as arrows in the hand of a mighty warrior."
+    },
+    {
+      "id": 43,
+      "title": "Prayer for Family Protection",
+      "theme": "family",
+      "saint": "St. Irenaeus",
+      "text": "Lord, who knit us together in the womb and placed us in families as Your image-bearers, safeguard this household from harm. Let Your peace dwell among us, fostering love, faith, and unity in Your holy name."
+    },
+    {
+      "id": 44,
+      "title": "Prayer Against the Sin of Anger",
+      "theme": "anger",
+      "saint": "St. Gregory Palamas",
+      "text": "O merciful God, who calms the raging sea, quiet the storm of anger within me. Grant me the serenity of Your Son, who endured betrayal without retaliation."
+    },
+    {
+      "id": 45,
+      "title": "Prayer for Purity from Lust",
+      "theme": "lust",
+      "saint": "St. John Climacus",
+      "text": "Lord, who created us pure and undefiled, deliver me from the chains of lustful desires. Fill my heart with the fire of Your divine love, that I may seek only the beauty of Your holiness."
+    },
+    {
+      "id": 46,
+      "title": "Prayer Against Pride",
+      "theme": "pride",
+      "saint": "St. Basil the Great",
+      "text": "Humble Maker of all, who exalted the lowly Virgin, crush the spirit of pride in me. Teach me to walk in meekness, recognizing that all I have is from Your hand."
+    },
+    {
+      "id": 47,
+      "title": "Prayer to Overcome Jealousy",
+      "theme": "jealousy",
+      "saint": "St. Gregory of Nyssa",
+      "text": "O God of boundless generosity, who gives to each according to Your wisdom, free me from the poison of jealousy. Let me rejoice in the blessings of others as in my own."
+    },
+    {
+      "id": 48,
+      "title": "Prayer for Divine Mercy",
+      "theme": "mercy",
+      "saint": "St. Gregory of Nazianzus",
+      "text": "Kyrie eleison, O Lord of compassion, who rained mercy upon Nineveh, extend Your tender mercy to this sinner. Wash me in the fountain of Your forgiveness."
+    },
+    {
+      "id": 49,
+      "title": "Prayer for Help in Weakness",
+      "theme": "help",
+      "saint": "St. John Chrysostom",
+      "text": "Almighty Helper, who strengthened the apostles in their frailty, come to my aid in this hour of need. Uphold me by Your right hand, that I may persevere in faith and good works."
+    },
+    {
+      "id": 50,
+      "title": "Prayer to Discern God's Will",
+      "theme": "gods_will",
+      "saint": "St. Anthony the Great",
+      "text": "O God, who called me from the world to serve You in solitude, reveal Your will to me. Grant me discernment to follow Your path, renouncing all that hinders my ascent to You."
     }
   ]
 }
