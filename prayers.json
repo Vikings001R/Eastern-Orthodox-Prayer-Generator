@@ -4,277 +4,246 @@
       "id": 1,
       "title": "Prayer to Your Patron Saint — A",
       "theme": "patron",
+      "saint": "St. Sava",
       "text": "Saint (Name), Holy Mother of God and all the saints, who have pleased God in Your lives; pray to Christ my Lord that I might live this day in peace, love and humility."
     },
     {
       "id": 2,
       "title": "Prayer to Your Patron Saint — B",
       "theme": "patron",
+      "saint": "St. Seraphim Rose",
       "text": "Pray unto God for me, O Holy Saint (Name), well-pleasing to God: for I turn to you, who are a speedy helper and intercessor for my soul."
     },
     {
       "id": 3,
       "title": "Prayer to Your Guardian Angel",
       "theme": "guardian",
+      "saint": "St. Basil the Great",
       "text": "O Angel of Christ, holy guardian and protector of my soul and body, forgive me of everything I have done to offend you every day, and protect me from all influence and temptation of the evil one. May I never offend God by my sin. Pray for me to the Lord, that He may make me worthy of the grace of the All-holy Trinity, and of the Most Blessed Theotokos, and of all the Saints. Amen."
     },
     {
       "id": 4,
       "title": "Prayer Upon Entering a Church",
       "theme": "church",
+      "saint": "St. John Chrysostom",
       "text": "I will come into Your house in the greatness of Your mercy: and in fear I will worship toward Your holy temple. Lead me, O Lord, in Your righteousness because of my enemies; make Your way straight before me, that with a clear mind I may glorify You forever, One Divine Power worshiped in three persons: Father, Son, and Holy Spirit. Amen."
     },
     {
       "id": 5,
       "title": "Prayer upon Leaving a Church",
       "theme": "church",
+      "saint": "St. Gregory of Nazianzus",
       "text": "Lord, now let Your servant depart in peace, according to Your word; for my eyes have seen Your salvation, which You have prepared in the presence of all people; a light to enlighten the Gentiles, and the glory of Your people Israel."
     },
     {
       "id": 6,
-      "title": "Prayer at the Icon of Christ",
-      "theme": "icon_christ",
-      "text": "We reverence Your spotless icon, O gracious Lord, and ask forgiveness of our transgressions, O Christ our God. Because of Your own good will You ascended the Cross in the flesh, that You might deliver those who You had created from the bondage of the enemy. We cry aloud unto You: You have filled all things with joy, O our Savior, for You came to save the world. Amen."
+      "title": "Prayer for Fasting and Discipline",
+      "theme": "fasting",
+      "saint": "St. John Chrysostom",
+      "text": "O Lord, who fasted forty days for us, grant me strength to abstain not only from food but from sinful desires. Purify my heart through fasting, that I may draw closer to Your divine will."
     },
     {
       "id": 7,
-      "title": "Prayer at the Icon of the Theotokos",
-      "theme": "icon_theotokos",
-      "text": "Tenderness springs forth from you, O Theotokos, make us worthy of compassion. Look upon sinful people, reveal your power for ever as we hope in you and cry aloud: Hail! as did the Archangel Gabriel, Chief Captain of the Bodiless Powers. Amen."
+      "title": "Prayer for a Holy Fast",
+      "theme": "fasting",
+      "saint": "St. Basil the Great",
+      "text": "God of mercy, guide us in this fast to seek Your face. Let our abstinence from earthly pleasures lead us to the feast of Your heavenly kingdom. Amen."
     },
     {
       "id": 8,
-      "title": "Prayer of a Sick Person",
-      "theme": "illness",
-      "text": "Jesus Christ, my Lord and Savior, You became man and died on the cross for our salvation. You healed people of sickness and affliction through Your love and compassion. Visit me, Lord and grant me strength to bear this sickness with which I am afflicted, with patience, submission to Your will and trust in Your loving care. I pray that You will bless the means used for my recovery and those who administer them. Grant that my sickness may be to my spiritual benefit and that I may live the rest of my life more faithfully according to Your will. For You are the source of life and healing and to You I give praise and glory, now and forever. Amen."
+      "title": "Prayer for a Blessed Marriage",
+      "theme": "marriage",
+      "saint": "St. John Chrysostom",
+      "text": "O Lord, who blessed the wedding at Cana, unite this couple in love and faith. May their marriage reflect Your divine harmony, enduring all trials with grace."
     },
     {
       "id": 9,
-      "title": "Prayer for a Sick Person — A",
-      "theme": "illness",
-      "text": "Heavenly Father, physician of our souls and bodies, Who have sent Your only-begotten Son and our Lord Jesus Christ to heal every sickness and infirmity, visit and heal also Your servant (name) from all physical and spiritual ailments through the grace of Your Christ. Grant him (her) patience in this sickness, strength of body and spirit, and recovery of health. Lord, You have taught us through Your word to pray for each other that we may be healed. I pray, heal Your servant (name) and grant to him (her) the gift of complete health. For You are the source of healing and to You I give glory, Father, Son and Holy Spirit. Amen."
+      "title": "Prayer for Marital Unity",
+      "theme": "marriage",
+      "saint": "St. Gregory of Nyssa",
+      "text": "Creator of all, bind this husband and wife in mutual love. Let their home be a haven of peace, mirroring the unity of Your Holy Trinity."
     },
     {
       "id": 10,
-      "title": "Prayer for a Sick Person — B",
-      "theme": "illness",
-      "text": "O Lord our God, Who by a word alone did heal all diseases, Who did cure the kinswoman of Peter, You Who chastise with pity and heal according to Your goodness; Who are able to put aside every sickness and infirmity, do You Yourself, the same Lord, grant aid to Your servant (name) and cure him (her) of every sickness of which he (she) is grieved; and send down upon him (her) Your great mercy, and if it be Your will, give to him (her) health and a complete recovery; for You are the Physician of our souls and bodies, and to You do we send up Glory: to the Father, Son and Holy Spirit, Both now and forever, and to the ages of ages. Amen."
+      "title": "Prayer of Thanksgiving for Grace",
+      "theme": "thanksgiving",
+      "saint": "St. Seraphim of Sarov",
+      "text": "O God, my joy, I thank You for Your unending mercies. Fill my soul with gratitude, that I may sing Your praises with a thankful heart."
     },
     {
       "id": 11,
-      "title": "After an Operation",
-      "theme": "post_operation",
-      "text": "Holy Father, the only true physician of our souls and bodies, who cast down and lift up, accept me as I come in all humility to glorify you and thank you for preserving, by your grace, your servant (Name) through his (her) recent operation. We thank you for blessing the attending physicians and the means employed for his (her) cure, and for restoring him (her) safe and sound to his (her) family and Church, having fended off every danger against his (her) body and soul. Raise him (her) speedily, we pray you, from the bed of illness on which he (she) lies and return him (her) to his (her) home and peaceful pursuits. Grant that the suffering of his (her) body may avail for the purifying of his (her) soul and may lead him (her) to return, in thanksgiving, to the works of his (her) hands and to Christ Jesus, the Physician of soul and body. Through the prayers of our Holy Fathers, Lord Jesus Christ have mercy on us and save us. Amen."
+      "title": "Thanksgiving After Deliverance",
+      "theme": "thanksgiving",
+      "saint": "St. John of Damascus",
+      "text": "Glory to You, O Lord, who lifts us from affliction. For Your salvation, I offer ceaseless thanks, vowing to walk in Your light forever."
     },
     {
       "id": 12,
-      "title": "Thanksgiving after Recovery — A",
-      "theme": "thanksgiving",
-      "text": "Almighty God and heavenly Father, You are the fountain of life and healing. I bless Your holy name and offer to You thanks for having delivered me from sickness and restored me to health. Grant me Your eternal grace, I pray, that I may live a new life in true obedience to You. Guide me to do Your will in all things devoting my life to Your service. Thus living for You may I be found worthy of Your kingdom, where You dwell in glory with Your Son and Your Holy Spirit forever. Amen."
+      "title": "Prayer for the Gift of Children",
+      "theme": "having_children",
+      "saint": "St. Justin Martyr",
+      "text": "O Giver of life, bless this family with the gift of children. May they grow in Your truth, becoming heirs of Your eternal kingdom."
     },
     {
       "id": 13,
-      "title": "Thanksgiving after Recovery — B",
-      "theme": "thanksgiving",
-      "text": "O Lord God Jesus Christ, the Life and strength of all that put their hope in You, Whose mercies are numberless, and the treasury goodness that is infinite, we give thanks to You for the blessings which You have bestowed, and we humbly beseech You to continue Your goodness toward us. As You have been well pleased to restore us to our bodily health, so do imbue our souls with all the heavenly graces, perseverance in good works, and prepare us by Your blessings in this life for the enjoyment of eternal happiness in the Life to come. For to You are due all glory, honor, and worship, as also to Your Eternal Father and Your All-holy Good and Life-creating Spirit, both now and forever, and to the ages of ages. Amen."
+      "title": "Prayer for a Fruitful Womb",
+      "theme": "having_children",
+      "saint": "St. Irenaeus",
+      "text": "Lord, who opened the barren womb of Sarah, grant the blessing of children to this couple. Let their home be filled with the joy of Your creation."
     },
     {
       "id": 14,
-      "title": "Prayer for the Terminally Ill",
-      "theme": "terminal",
-      "text": "Lord, Jesus Christ, Who suffered and died for our sins that we may live, if during our life we have sinned in word, deed or thought forgive us in Your goodness and love. All our hope we put in You; protect your servant (name) from all evil. We submit to Your will and into Your hands we commend our souls and bodies. For a Christian end to our lives, peaceful, without shame and suffering, and for a good account before the awesome judgment seat of Christ, we pray to you O Lord. Bless us, be merciful to us and grant us life eternal. Amen."
+      "title": "Prayer Against Anger",
+      "theme": "anger",
+      "saint": "St. Gregory Palamas",
+      "text": "O God of peace, calm the storm of anger in my heart. Grant me the meekness of Your Son, that I may respond with love in all trials."
     },
     {
       "id": 15,
-      "title": "Prayers in Time of Trouble — Short",
-      "theme": "trouble",
-      "text": "Lord of the Powers be with us, for in times of distress we have no other help but You. Lord of the Powers, have mercy on us."
+      "title": "Prayer for Purity",
+      "theme": "lust",
+      "saint": "St. John Climacus",
+      "text": "O Pure One, cleanse me from the passions of lust. Fill my soul with the radiance of Your holiness, that I may live as Your temple."
     },
     {
       "id": 16,
-      "title": "Prayers in Time of Need — A",
-      "theme": "need",
-      "text": "Almighty God, the Father of mercies and God of all comfort, come to my help and deliver me from this difficulty that besets me. I believe Lord, that all trials of life are under Your care and that all things work for the good of those who love You. Take away from me fear, anxiety and distress. Help me to face and endure my difficulty with faith, courage and wisdom. Grant that this trial may bring me closer to You for You are my rock and refuge, my comfort and hope, my delight and joy. I trust in Your love and compassion. Blessed is Your name, Father, Son and Holy Spirit, now and forever. Amen."
+      "title": "Prayer Against Pride",
+      "theme": "pride",
+      "saint": "St. Basil the Great",
+      "text": "Humble Lord, who humbled Yourself for our sake, cast down the pride in my heart. Teach me to walk in lowliness, glorifying only You."
     },
     {
       "id": 17,
-      "title": "Prayers in Time of Need — B",
-      "theme": "need",
-      "text": "O God, our help in time of need, Who are just and merciful, and Who inclines to the supplications of His people. Look down upon me and have mercy on me and deliver me from the trouble that now besets me. Deal with us not according to our iniquities, but according to Your manifold mercies, for we are the works of Your hands, and You know our weaknesses. I pray to you to grant me Your divine helping grace, and endow me with patience and strength to endure my hardships with complete submission to Your Will. Only You know our misery and sufferings, and to You, our only hope and refuge, I flee for relief and comfort, trusting in Your infinite love and compassion, that in due time, when You know best, You will deliver me from this trouble, and turn my distress into comfort. We then shall rejoice in Your mercy, and exalt and praise Your Holy Name, O Father, Son and Holy Spirit, both now and forever and to the ages of ages. Amen."
+      "title": "Prayer to Overcome Jealousy",
+      "theme": "jealousy",
+      "saint": "St. Gregory of Nyssa",
+      "text": "O Generous God, heal my heart from jealousy. Let me rejoice in the blessings of others, trusting in Your perfect provision for all."
     },
     {
       "id": 18,
-      "title": "Prayer Against Demonic Influence",
-      "theme": "protection",
-      "text": "Almighty God, Who delivered Your people from the bondage of the adversary, and through Your Son cast down Satan like lightning, deliver me also from every influence of unclean spirits. Command Satan to depart far from me by the power of Your only begotten Son. Rescue me from demonic imaginings and darkness. Fill me with the light of the Holy Spirit that I may be guarded against all snares of crafty demons. Grant that an angel will always go before me and lead me to the path of righteousness all the days of my life, to the honor of Your glorious Name, Father, Son and Holy Spirit, now and forever. Amen."
+      "title": "Prayer for Mercy",
+      "theme": "mercy",
+      "saint": "St. Gregory of Nazianzus",
+      "text": "Lord Jesus Christ, Son of God, have mercy on me, a sinner. Wash me in Your compassion, that I may stand clean before Your throne."
     },
     {
       "id": 19,
-      "title": "Prayer for Our Enemies",
-      "theme": "enemies",
-      "text": "Lord Jesus Christ, in Your great mercy You prayed for the forgiveness of those who crucified You, and You taught us to love our enemies and to pray for those who persecute us. Lord, I pray that You forgive those who treat me unjustly and speak out against me, and that You bless them and guide them according to Your will. Take away any bitterness I may have in my heart against them. Lord, may Your forgiveness, goodness and love be revealed in all of us, to Your praise and glory. Amen."
+      "title": "Prayer for Divine Help",
+      "theme": "help",
+      "saint": "St. John Chrysostom",
+      "text": "O Almighty Helper, support me in my weakness. Strengthen my resolve to follow You, granting aid in every trial through Your grace."
     },
     {
       "id": 20,
-      "title": "Prayer for Peace",
-      "theme": "peace",
-      "text": "Almighty God and Creator, You are the Father of all people on the earth. Guide, I pray, all the nations and their leaders in the ways of justice and peace. Protect us from the evils of injustice, prejudice, exploitation, conflict and war. Help us to put away mistrust, bitterness and hatred. Teach us to cease the storing and using of implements of war. Lead us to find peace, respect and freedom. Unite us in the making and sharing of tools of peace against ignorance, poverty, disease and oppression. Grant that we may grow in harmony and friendship as brothers and sisters created in Your image, to Your honor and praise. Amen."
+      "title": "Prayer to Follow God's Will",
+      "theme": "gods_will",
+      "saint": "St. Seraphim of Sarov",
+      "text": "O Lord, who guides the stars, reveal Your will to me. Align my heart with Your purpose, that I may walk the path You have set."
     },
     {
       "id": 21,
-      "title": "Thanksgiving After Trouble",
-      "theme": "thanksgiving",
-      "text": "Almighty and merciful God, I most humbly and heartily thank Your divine majesty for Your loving kindness and tender mercies, that You have heard my humble prayer, and graciously granted me deliverance from my trouble and misery. I pray to you to continue granting Your helping grace, that I may lead a life pleasing to You, that I may continually offer to You a sacrifice of praise and thanksgiving, O Father, Son, and Holy Spirit. Amen."
+      "title": "Prayer for Spiritual Closeness",
+      "theme": "growing_closer",
+      "saint": "St. John of Damascus",
+      "text": "Draw me near, O Lord, to Your divine heart. Kindle in me the fire of Your love, that I may abide in You forever."
     },
     {
       "id": 22,
-      "title": "Prayer Before Any Task — A",
-      "theme": "task",
-      "text": "Lord Jesus Christ, my God, You have said, 'Apart from me You can do nothing.' In faith I embrace Your words, Lord, and I entreat Your goodness. Help me to carry out the work I am about to begin, and to bring it to completion. To You I give glory, Father, Son and Holy Spirit. Amen."
+      "title": "Prayer for Divine Revelation",
+      "theme": "revealing_more",
+      "saint": "St. Justin Martyr",
+      "text": "O Word of God, unveil Your mysteries to my soul. Grant me wisdom to understand Your truth and courage to live it fully."
     },
     {
       "id": 23,
-      "title": "Prayer Before Any Task — B",
-      "theme": "task",
-      "text": "Almighty God, our Help and Refuge, who knows that we can do nothing right without Your guidance and help; direct me by Your wisdom and power, that I may accomplish this task and, whatever I do according to Your divine will, so that it may be beneficial to me and others and to the glory of Your holy Name. Amen."
+      "title": "Prayer for Unbelievers",
+      "theme": "unbelievers",
+      "saint": "St. Irenaeus",
+      "text": "O God, who desires all to know You, soften the hearts of unbelievers. Through Your saints, draw them to the light of Your Son."
     },
     {
       "id": 24,
-      "title": "Prayer Before Any Task — C",
-      "theme": "task",
-      "text": "My Lord and Savior, You became man and labored with Your hands until the time of Your ministry. Bless me as I begin this work. Help me to bring it to completion. Lord, enlighten my mind and strengthen my body, that I may accomplish my task according to Your will. Guide me to bring about works of goodness to Your service and glory. Amen."
+      "title": "Prayer for Family Unity",
+      "theme": "family",
+      "saint": "St. Sava",
+      "text": "O Lord, who binds us in love, unite this family in Your peace. May we reflect Your kingdom in our home, living in harmony."
     },
     {
       "id": 25,
-      "title": "Prayer After Any Task",
-      "theme": "task",
-      "text": "Thank You, Lord, for Your strength and guidance in my work. You are the fulfillment of all good things. Fill also my soul with joy and gladness, that I may praise You always. Amen."
+      "title": "Prayer for Catechumens",
+      "theme": "catechumens",
+      "saint": "St. John Chrysostom",
+      "text": "O Teacher of the faith, guide these catechumens to Your truth. Prepare their hearts for baptism, filling them with Your Holy Spirit."
     },
     {
       "id": 26,
-      "title": "Prayer Toward the Unknown",
-      "theme": "trust",
-      "text": "O Lord, You who steadied the hand of Peter as he began to sink on the stormy sea, if you are with me, no one is against me. Grant to me the shield of faith and the mighty armor of the Holy Spirit to protect me and guide me to do Your will. The future I put into Your hands, O Lord, and I follow You to a life in Christ. Amen."
+      "title": "Prayer for Monastic Calling",
+      "theme": "monasticism",
+      "saint": "St. Anthony the Great",
+      "text": "O Father of Monks, inspire those called to the monastic life. Grant them strength to renounce the world and seek You in solitude."
     },
     {
       "id": 27,
-      "title": "Prayer Before Travel — A",
-      "theme": "travel",
-      "text": "Lord Jesus Christ my God, be my Companion, guide and protector during my journey. Keep me from all danger, misfortune and temptation. By Your divine power grant me a peaceful and successful journey and safe arrival. In You I place my hope and trust and You I praise, honor and glorify, together with Your Father and Holy Spirit now and forever and ever. Amen."
+      "title": "Prayer for Monastic Endurance",
+      "theme": "monasticism",
+      "saint": "St. Seraphim of Sarov",
+      "text": "O Joyful Ascetic, strengthen monks in their holy struggle. Let their prayers rise like incense, drawing them to Your light."
     },
     {
       "id": 28,
-      "title": "Prayer Before Travel — B",
-      "theme": "travel",
-      "text": "Lord Jesus, You traveled with the two disciples after the resurrection and set their hearts on fire with Your grace. Travel also with me and gladden my heart with Your presence. I know, Lord, that I am a pilgrim on this earth, seeking the citizenship which is in heaven. During my journey surround me with Your holy angels and keep me safe from seen and unseen dangers. Grant that I may carry out my plans and fulfill my expectations according to Your will. Help me to see the beauty of creation and to comprehend the wonder of Your truth in all things. For You are the way, the truth and the life, and to You I give thanks, praise and glory forever. Amen."
+      "title": "Prayer for Fasting Strength",
+      "theme": "fasting",
+      "saint": "St. Gregory Palamas",
+      "text": "O Hesychast, guide us in fasting to seek God’s stillness. Purify our hearts, that we may hunger for His righteousness alone."
     },
     {
       "id": 29,
-      "title": "Prayer for Repentance — A",
-      "theme": "repentance",
-      "text": "God, my good and loving Lord, I acknowledge all the sins which I have committed every day in my life, whether in thought, word or deed. I ask for forgiveness from the depths of my heart for offending You and others and repent of my old ways. Help me by Your grace to change, to sin no more and to walk in the way of righteousness and to praise and glorify Your Name, Father, Son and Holy Spirit. Amen."
+      "title": "Prayer for Marital Love",
+      "theme": "marriage",
+      "saint": "St. Gregory of Nyssa",
+      "text": "O Lord, sanctify this marriage with Your love. Let this couple grow in mutual devotion, reflecting Your eternal union."
     },
     {
       "id": 30,
-      "title": "Prayer for Repentance — B",
-      "theme": "repentance",
-      "text": "O Lord my God, I confess that I have sinned against You in thought, word and deed. I have also omitted to do what Your holy law requires of me. But now with repentance and contrition I turn again to Your love and mercy. I entreat You to forgive me all my transgressions and to cleanse me from all my sins. Lord, fill my heart with the light of Your truth. Strengthen my will by Your grace. Teach me both to desire and to do only what pleases You. Amen."
+      "title": "Prayer of Grateful Heart",
+      "theme": "thanksgiving",
+      "saint": "St. John of Damascus",
+      "text": "O God, source of all good, I thank You for Your boundless gifts. Fill my soul with gratitude, that I may always glorify You."
     },
     {
       "id": 31,
-      "title": "Prayer for Love",
-      "theme": "love",
-      "text": "Christ my God, set my heart on fire with love in You, that in its flame I may love You with all my heart, with all my mind, and with all my soul and with all my strength, and my neighbor as myself, so that by keeping Your commandments I may glorify You the Giver of every good and perfect gift. Amen."
+      "title": "Prayer for Children’s Blessing",
+      "theme": "having_children",
+      "saint": "St. Justin Martyr",
+      "text": "O Creator, bless this family with children as Your heritage. May they grow in faith, shining as lights in Your kingdom."
     },
     {
       "id": 32,
-      "title": "Lenten Prayer — General",
-      "theme": "lenten",
-      "text": "Almighty Master, who created all things in wisdom, by Your providence and great goodness, you have led us to this lenten season for purification of our souls and bodies, and for control of our passions in the hope of the resurrection; You, who after forty days gave Moses the tablets of the law inscribed by Your divine hand, grant to us the strength to fight the good fight, to fast, to keep the faith, to crush under foot all evil demons, and to become victorious over sin and to celebrate Your holy Resurrection. For blessed and glorified is Your most honored and majestic name of the Father and the Son and the Holy Spirit, both now and forever and to the ages of ages. Amen."
+      "title": "Prayer Against Wrath",
+      "theme": "anger",
+      "saint": "St. John Climacus",
+      "text": "O Lord, who endured all for us, quench the fire of wrath in me. Grant me patience to bear all things with Your peace."
     },
     {
       "id": 33,
-      "title": "Lenten Prayer of St. Ephraim the Syrian",
-      "theme": "lenten",
-      "text": "Lord and Master of my life, deliver me from the spirit of laziness, meddling, ambition and gossip. Give me, Your servant, the spirit of prudence, humility, patience and love. Lord and King, grant that I may see my sins and faults and not judge my brother, for You are blessed forever and ever. Amen."
+      "title": "Prayer for Chastity",
+      "theme": "lust",
+      "saint": "St. Basil the Great",
+      "text": "O Holy One, guard my senses from lustful thoughts. Make my body a temple of Your Spirit, pure and undefiled."
     },
     {
       "id": 34,
-      "title": "Prayer for Acceptance of God's Will",
-      "theme": "acceptance",
-      "text": "Lord, I do not know what to ask of You. You know better than me what my needs are. You love more than I know how to love. Help me to see clearly my real needs which I do not see. I open my heart to You. Examine and reveal to me my faults and sins. I put all trust in You. I have no other desire than to fulfill Your will. Teach me how to pray. Pray in me. Amen."
+      "title": "Prayer Against Vainglory",
+      "theme": "pride",
+      "saint": "St. Gregory of Nazianzus",
+      "text": "O Humble Savior, cast down the pride that exalts itself in me. Teach me to seek Your glory alone in all I do."
     },
     {
       "id": 35,
-      "title": "Prayer of a Student",
-      "theme": "study",
-      "text": "Christ my Lord, the Giver of light and wisdom, who opened the eyes of the blind man and transformed the fishermen into wise heralds and teachers of the gospel through the coming of the Holy Spirit, shine also in my mind the light of the grace of the Holy Spirit. Grant me discernment, understanding and wisdom in learning. Enable me to complete my assignments and to abound in every good work, for to You I give honor and glory. Amen."
-    },
-    {
-      "id": 36,
-      "title": "Prayer Before Study",
-      "theme": "study",
-      "text": "Most blessed Lord, send the grace of Your Holy Spirit on me to strengthen me that I may learn well the subject I am about to study and by it become a better person for Your glory, the comfort of my family and the benefit of Your Church and our Nation. Amen."
-    },
-    {
-      "id": 37,
-      "title": "Prayer After Study",
-      "theme": "study",
-      "text": "I thank You, Lord our God, that again on this occasion You have opened my eyes to the light of Your wisdom. You have gladdened my heart with the knowledge of truth. I entreat You, Lord, help me always to do Your will. Bless my soul and body, my words and deeds. Enable me to grow in grace, virtue and good habits, that Your name may be glorified, Father, Son and Holy Spirit, now and forever. Amen."
-    },
-    {
-      "id": 38,
-      "title": "Prayer Before Studying the Bible — A",
-      "theme": "bible",
-      "text": "Master who loves us, shine Your eternal light in our hearts that we may better know you. Help us to fully understand Your gospel message. Instill in us respect for Your holy commandments, that by overcoming our worldly desires we might live a spiritual life of thoughts and deeds which pleases You. We ask this of You, O Christ our god, for You are the light of our souls and bodies and You we glorify with Your eternal Father and Your all-holy good and life-giving Spirit now and forever. Amen."
-    },
-    {
-      "id": 39,
-      "title": "Prayer Before Studying the Bible — B",
-      "theme": "bible",
-      "text": "Shine within my heart, loving Master, the pure light of Your divine knowledge, and open the eyes of my mind that I may understand Your teachings. Instill in me also reverence for Your blessed commandments, so that having conquered sinful desires I may pursue a spiritual way of life, thinking and doing all those things that are pleasing to You. For You, Christ my God, are my light, and to You I give glory together with Your Father and Your Holy Spirit, now and forever. Amen."
-    },
-    {
-      "id": 40,
-      "title": "General Prayer for the Dead",
-      "theme": "dead",
-      "text": "Christ our eternal King and God, You have destroyed death and the devil by Your Cross and have restored man to life by Your Resurrection; give rest, Lord, to the soul of Your servant (name) who has fallen asleep, in Your Kingdom, where there is no pain, sorrow or suffering. In Your goodness and love for all men, pardon all the sins he (she) has committed in thought word or deed. For You are the Resurrection, the Life, and Repose of Your servant (name), departed this life, O Christ our God; and to You do we send up glory with Your Eternal Father and Your All-holy, Good and Life-creating Spirit; both now and forever and to the ages of ages. Amen."
-    },
-    {
-      "id": 41,
-      "title": "Prayer for a Dead Child",
-      "theme": "dead",
-      "text": "O Lord who watches over children in the present life and in the world to come because of their simplicity and innocence of mind, abundantly satisfying them with a place in Abraham's bosom, bringing them to live in radiantly shining places where the spirits of the righteous dwell: receive in peace the soul of Your little servant (name), for You Yourself have said, 'Let the little children come to Me, for such is the Kingdom of Heaven.' Amen."
-    },
-    {
-      "id": 42,
-      "title": "Prayer After a Miscarriage",
-      "theme": "grief",
-      "text": "O Sovereign Master, Lord our God, Who was born of the all-pure Theotokos and Ever-Virgin Mary, and as an infant was laid in a manger: do You Yourself, according to Your great mercy, have regard for this Your servant (Name) who has miscarried that which was conceived in her. Heal her suffering, granting to her, O Loving Lord, health and strength of body and soul. Guard her with a shining Angel from every assault of sickness and weakness and all inward torment. You who accept the innocence of infancy in Your Kingdom, comfort the mind of Your servant and bring her peace. Amen."
-    },
-    {
-      "id": 43,
-      "title": "Prayer of the Hours",
-      "theme": "hours",
-      "text": "Thou Who at all times and at every hour, in heaven and on earth, art worshipped and glorified, O Christ God, Who art long-suffering, plenteous in mercy, most compassionate, Who lovest the righteous and hast mercy on sinners; Who callest all men to salvation through the promise of good things to come: Receive, O Lord, our prayers at this hour, and guide our life toward Thy commandments. Sanctify our souls, make chaste our bodies, correct our thoughts, purify our intentions, and deliver us from every sorrow, evil, and pain. Compass us about with Thy holy angels, that, guarded and guided by their array, we may attain to the unity of the faith and to the knowledge of Thine unapproachable glory: For blessed art Thou unto the ages of ages. Amen."
-    },
-    {
-      "id": 44,
-      "title": "Short Doxology — Glory",
-      "theme": "doxology",
-      "text": "Glory to the Father, and to the Son, and to the Holy Spirit, both now and ever, and unto the ages of ages. Amen."
-    },
-    {
-      "id": 45,
-      "title": "Magnification of the Theotokos",
-      "theme": "theotokos",
-      "text": "More honorable than the cherubim and beyond compare more glorious than the seraphim; who without corruption gavest birth to God the Word, the very Theotokos, thee do we magnify."
-    },
-    {
-      "id": 46,
-      "title": "Closing Invocation",
-      "theme": "closing",
-      "text": "Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy on us."
+      "title": "Prayer for Contentment",
+      "theme": "jealousy",
+      "saint": "St. Irenaeus",
+      "text": "O Generous God, free me from jealousy’s grasp. Let me find contentment in Your will, rejoicing in the blessings of all."
     }
   ]
 }
