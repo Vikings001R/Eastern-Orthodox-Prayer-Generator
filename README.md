@@ -1,7 +1,7 @@
 
 # Eastern Orthodox Prayer Generator
 
-A CLI tool to generate daily prayers from traditional ROC, ROCOR, and Serbian Orthodox sources.
+A CLI tool to generate daily prayers from the saints of traditional ROC, ROCOR, and Serbian Orthodox Christian sources.
 
 ## Setup
 
