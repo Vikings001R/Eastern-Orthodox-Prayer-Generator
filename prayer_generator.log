@@ -657,3 +657,33 @@
 2025-09-28 15:45:29,664 - INFO - Selected prayer ID 6 with theme 'fasting'
 2025-09-28 15:45:29,666 - INFO - 127.0.0.1 - - [28/Sep/2025 15:45:29] "GET /category/fasting HTTP/1.1" 200 -
 2025-09-28 15:45:29,802 - INFO - 127.0.0.1 - - [28/Sep/2025 15:45:29] "[36mGET /static/doubleheadedorthoeagle.png HTTP/1.1[0m" 304 -
+2025-09-30 09:02:25,170 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:02:25,173 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:02:38,422 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:02:38,423 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:03:27,061 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:03:27,062 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:06:42,365 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:06:42,366 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:06:44,876 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:06:44,877 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:15:32,820 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:15:32,821 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:15:36,285 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:15:36,287 - INFO - Selected prayer ID 25 with theme 'catechumens'
+2025-09-30 09:15:37,582 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:15:37,582 - INFO - Selected prayer ID 20 with theme 'gods_will'
+2025-09-30 09:15:46,982 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:15:46,983 - INFO - Selected prayer ID 19 with theme 'help'
+2025-09-30 09:15:54,781 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:15:54,781 - INFO - Selected prayer ID 21 with theme 'growing_closer'
+2025-09-30 09:16:06,132 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:16:06,133 - INFO - Selected prayer ID 24 with theme 'family'
+2025-09-30 09:16:38,657 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:16:38,658 - INFO - Selected prayer ID 4 with theme 'church'
+2025-09-30 09:16:47,513 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:16:47,513 - INFO - Selected prayer ID 44 with theme 'anger'
+2025-09-30 09:23:30,167 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:23:30,168 - INFO - Selected prayer ID 39 with theme 'marriage'
+2025-09-30 09:25:48,107 - INFO - Loaded 50 prayers from prayers.json
+2025-09-30 09:25:48,107 - INFO - Selected prayer ID 39 with theme 'marriage'
