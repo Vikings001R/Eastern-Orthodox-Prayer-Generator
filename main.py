@@ -52,8 +52,8 @@ def render_html(prayer, output_file):
         logging.error("Templates directory not found")
         raise FileNotFoundError("Templates directory not found")
     env = Environment(loader=FileSystemLoader('templates'))
-    template = env.get_template('prayer_template.html')
-    html_content = template.render(prayer=prayer['text'], title=prayer.get('title', 'Daily Prayer'))
+    template = env.get_template('cli_prayer_template.html')
+    html_content = template.render(prayer=prayer['text'], title=prayer.get('title', 'Daily Prayer'), saint=prayer.get('saint', 'Traditional'))
     with open(output_file, 'w') as f:
         f.write(html_content)
     logging.info(f"Generated HTML file: {output_file}")

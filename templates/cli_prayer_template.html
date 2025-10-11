@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        body { font-family: 'Georgia', 'Times New Roman', serif; margin: 40px; text-align: center; background-color: #f5f5dc; color: #2c1810; }
+        .prayer { font-size: 1.2em; margin: 20px; padding: 20px; border: 2px solid #d4af37; background-color: #fffaf0; text-align: justify; }
+        .prayer-title { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; color: #8b4513; font-style: italic; }
+        .saint-attribution { font-size: 1em; color: #001f3f; margin-bottom: 15px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Daily Orthodox Prayer</h1>
+    <div class="prayer-title">{{ title }}</div>
+    <div class="saint-attribution">— {{ saint }}</div>
+    <div class="prayer">{{ prayer }}</div>
+</body>
+</html>

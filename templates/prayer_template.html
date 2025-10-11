@@ -103,6 +103,20 @@
             border-left: 4px solid #d4af37;
             text-align: justify;
         }
+        .new-prayer-btn {
+            background-color: #d4af37; /* Gold */
+            color: #001f3f; /* Deep blue */
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            font-family: 'Georgia', 'Times New Roman', serif;
+        }
+        .new-prayer-btn:hover {
+            background-color: #b8860b; /* Darker gold */
+        }
         .orthodox-cross {
             font-size: 4em;
             color: #d4af37;
@@ -150,10 +164,11 @@
         </ul>
     </div>
     <div class="main-content">
-        <div class="container">
+        <div class="container" id="prayer-container">
             <div class="prayer-title">{{ title }}</div>
             <div class="saint-attribution">— {{ saint }}</div>
             <div class="prayer">{{ prayer }}</div>
+            <button class="new-prayer-btn" id="new-prayer-btn">Show New Prayer</button>
             <div class="orthodox-cross">☦</div>
         </div>
     </div>
@@ -161,5 +176,6 @@
         Through the prayers of our holy fathers, O Lord Jesus Christ our God, have mercy on us. Amen.<br><br>
         <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms and Conditions</a> | Copyright © 2025 Eastern Orthodox Prayer Generator. All rights reserved.<br><br><br><br><br>
     </footer>
+    <script src="/static/script.js"></script>
 </body>
 </html>
