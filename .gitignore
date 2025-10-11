@@ -1,3 +1,4 @@
 venv/
 __pycache__/
 *.pyc
+prayer_generator.log
